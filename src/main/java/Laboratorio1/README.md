@@ -39,22 +39,22 @@
 ---
 
 ## 🏆 Reto #04
-![Salida Reto 4](/Images/Reto4Salida.png)
+![Salida Reto 4](/Images/Reto4Salida.PNG)
 
 ---
 
 ## 🏆 Reto #05
-![Salida Reto 5](/Images/Reto5Salida.png)
+![Salida Reto 5](/Images/Reto5Salida.PNG)
 
 ---
 
 ## 🏆 Reto #06
-![Salida Reto 6](/Images/Reto6Salida.png)
+![Salida Reto 6](/Images/Reto6Salida.PNG)
 
 ---
 
 ## 🏆 Reto #07
-![Salida Reto 7](/Images/Reto7Salida.png)
+![Salida Reto 7](/Images/Reto7Salida.PNG)
 
 ---
 
