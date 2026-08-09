@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70fb40ee-5635-435d-bdc0-7113e2b5f292" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PMDPlugin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/Estudiante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/LectorEstudiantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/MensajeBienvenida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto1/reto1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/Funciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/LectorNumeros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/MensajeFunciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto2/reto2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/Amplificador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/Descifrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto3/reto3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto4/Combinador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto4/LectorMapa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto4/reto4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto5/Funciones.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto5/GuerrerosHash.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto5/reto5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/Comandos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio1/reto6/reto6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto1/Estudiante.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto1/LectorEstudiantes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto1/MensajeBienvenida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto1/reto1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto2/Funciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto2/LectorNumeros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto2/MensajeFunciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto2/reto2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto3/Amplificador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto3/Descifrador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto3/reto3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto4/Combinador.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto4/LectorMapa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto4/reto4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto5/Funciones.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto5/GuerrerosHash.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto5/reto5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto6/Comandos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt/reto6/reto6.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HenUn7eU6VQv3xp6py0JAvnRHt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GuerrerosHash.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LectorMapa.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.reto7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/GaitanPerez__2026-INT&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/usuario/Desktop/DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\usuario\Desktop\DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.reto7">
+    <configuration name="reto3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reto3.reto3" />
+      <module name="DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reto3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reto4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reto4.reto4" />
+      <module name="DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reto4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reto5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reto5.reto5" />
+      <module name="DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reto5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reto6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reto6.reto6" />
+      <module name="DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reto6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="reto7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Reto7.reto7" />
+      <module name="DOSW-Lab1-2026-INT-JuanDiegoGaitanUnicoInt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Reto7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.reto7" />
+        <item itemvalue="Application.reto6" />
+        <item itemvalue="Application.reto5" />
+        <item itemvalue="Application.reto4" />
+        <item itemvalue="Application.reto3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.32098.37" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70fb40ee-5635-435d-bdc0-7113e2b5f292" name="Changes" comment="" />
+      <created>1786237420049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1786237420049</updated>
+    </task>
+    <servers />
+  </component>
+</project>
