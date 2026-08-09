@@ -23,16 +23,38 @@
 
 > En esta sección se documentan las capturas de pantalla correspondientes a la ejecución y los resultados obtenidos en cada uno de los retos del proyecto.
 
-<table>
-<tr><th>Reto</th><th>Evidencia</th></tr>
-<tr><td><strong>Reto #01</strong></td><td><img src="/Images/Reto1Salida.png" alt="Salida Reto 1" width="500"/></td></tr>
-<tr><td><strong>Reto #02</strong></td><td><img src="/Images/Reto2Salida.png" alt="Salida Reto 2" width="500"/></td></tr>
-<tr><td><strong>Reto #03</strong></td><td><img src="/Images/Reto3Salida.png" alt="Salida Reto 3" width="500"/></td></tr>
-<tr><td><strong>Reto #04</strong></td><td><img src="/Images/Reto4Salida.png" alt="Salida Reto 4" width="500"/></td></tr>
-<tr><td><strong>Reto #05</strong></td><td><img src="/Images/Reto5Salida.png" alt="Salida Reto 5" width="500"/></td></tr>
-<tr><td><strong>Reto #06</strong></td><td><img src="/Images/Reto6Salida.png" alt="Salida Reto 6" width="500"/></td></tr>
-<tr><td><strong>Reto #07</strong></td><td><img src="/Images/Reto7Salida.png" alt="Salida Reto 7" width="500"/></td></tr>
-</table>
+## 🏆 Reto #01
+![Salida Reto 1](/Images/Reto1Salida.png)
+
+---
+
+## 🏆 Reto #02
+![Salida Reto 2](/Images/Reto2Salida.png)
+
+---
+
+## 🏆 Reto #03
+![Salida Reto 3](/Images/Reto3Salida.png)
+
+---
+
+## 🏆 Reto #04
+![Salida Reto 4](/Images/Reto4Salida.png)
+
+---
+
+## 🏆 Reto #05
+![Salida Reto 5](/Images/Reto5Salida.png)
+
+---
+
+## 🏆 Reto #06
+![Salida Reto 6](/Images/Reto6Salida.png)
+
+---
+
+## 🏆 Reto #07
+![Salida Reto 7](/Images/Reto7Salida.png)
 
 ---
 
