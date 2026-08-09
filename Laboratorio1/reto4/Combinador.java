@@ -1,7 +1,8 @@
 package reto4;
 
-import java.util.HashMap;
+
 import java.util.Hashtable;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -22,7 +23,7 @@ public class Combinador {
                         Map.Entry::getValue,
                         (v1,v2) -> v2,
                         //Se prioriza la llave del HashTable (v2)
-                        HashMap::new
+                        LinkedHashMap::new
                 //Se recolecta en un HashMap los elementos transformados
                 ));
     }
