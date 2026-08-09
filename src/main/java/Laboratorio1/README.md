@@ -1,101 +1,245 @@
-# 📊 Evidencia de Salida de los Retos (Del 1 al 7)
+<div align="center">
 
-> En este espacio se encuentran alojadas las capturas de pantalla correspondientes a la ejecución y resultados obtenidos en cada uno de los retos del proyecto.
+# 📊 Evidencia de Retos y Preguntas Teóricas
 
----
+**Repositorio de evidencias, resultados y fundamentación teórica del proyecto**
 
-## 🏆 Reto #01
-![Salida Reto 1](/Images/Reto1Salida.png)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
----
-
-## 🏆 Reto #02
-![Salida Reto 2](/Images/Reto2Salida.png)
+</div>
 
 ---
 
-## 🏆 Reto #03
-![Salida Reto 3](/Images/Reto3Salida.png)
+## 📌 Índice
+
+1. [Evidencia de salida de los retos](#-evidencia-de-salida-de-los-retos)
+2. [Preguntas teóricas](#-preguntas-teóricas)
+3. [Referencias](#-referencias)
 
 ---
 
-## 🏆 Reto #04
-![Salida Reto 4](/Images/Reto4Salida.png)
+## 🏁 Evidencia de Salida de los Retos
+
+> En esta sección se documentan las capturas de pantalla correspondientes a la ejecución y los resultados obtenidos en cada uno de los retos del proyecto.
+
+<table>
+<tr><th>Reto</th><th>Evidencia</th></tr>
+<tr><td><strong>Reto #01</strong></td><td><img src="/Images/Reto1Salida.png" alt="Salida Reto 1" width="500"/></td></tr>
+<tr><td><strong>Reto #02</strong></td><td><img src="/Images/Reto2Salida.png" alt="Salida Reto 2" width="500"/></td></tr>
+<tr><td><strong>Reto #03</strong></td><td><img src="/Images/Reto3Salida.png" alt="Salida Reto 3" width="500"/></td></tr>
+<tr><td><strong>Reto #04</strong></td><td><img src="/Images/Reto4Salida.png" alt="Salida Reto 4" width="500"/></td></tr>
+<tr><td><strong>Reto #05</strong></td><td><img src="/Images/Reto5Salida.png" alt="Salida Reto 5" width="500"/></td></tr>
+<tr><td><strong>Reto #06</strong></td><td><img src="/Images/Reto6Salida.png" alt="Salida Reto 6" width="500"/></td></tr>
+<tr><td><strong>Reto #07</strong></td><td><img src="/Images/Reto7Salida.png" alt="Salida Reto 7" width="500"/></td></tr>
+</table>
 
 ---
 
-## 🏆 Reto #05
-![Salida Reto 5](/Images/Reto5Salida.png)
+## 🧠 Preguntas Teóricas
 
----
+### 🔀 Git y control de versiones
 
-## 🏆 Reto #06
-![Salida Reto 6](/Images/Reto6Salida.png)
+<details open>
+<summary><strong>01. ¿Cuál es la diferencia entre <code>git merge</code> y <code>git rebase</code>?</strong></summary>
 
----
+<br>
 
-## 🏆 Reto #07
-![Salida Reto 7](/Images/Reto7Salida.png)
+- **`git merge`**: preserva el historial completo de desarrollo creando un nuevo commit que combina las ramas, sin alterar los commits existentes.
+- **`git rebase`**: reescribe la historia reproduciendo los commits de una rama sobre otra, generando una narrativa lineal, pero modificando los hash SHA de los commits.
 
-# 📊 Preguntas Teóricas
+📎 *Fuente: [DataCamp – Git Merge vs Git Rebase](https://www.datacamp.com/es/blog/git-merge-vs-git-rebase)*
 
-01. ¿Cuál es la diferencia entre git merge y git rebase?
+</details>
 
-Git Merge: Preserva el historial completo de desarrollo creando nuevas confirmaciones que combinan ramas sin alterar las confirmaciones existentes.
+<details open>
+<summary><strong>02. Si dos ramas modifican la misma línea de un archivo, ¿qué sucede al hacer merge?</strong></summary>
 
-Git Rebase: reescribe la historia reproduciendo las confirmaciones de una rama en otra, creando una narrativa lineal, pero cambiando los hash SHA de las confirmaciones. https://www.datacamp.com/es/blog/git-merge-vs-git-rebase
+<br>
 
-02. Si dos ramas modifican la misma línea de un archivo, ¿Qué sucede al hacer merge?
+Cuando ambas ramas modifican la misma parte del mismo archivo, Git no puede determinar automáticamente qué versión conservar. En ese caso, detiene el proceso justo antes de crear el commit de fusión para que el conflicto se resuelva manualmente.
 
-Si las dos ramas que se tratan de fusionar han cambiado la misma parte del mismo archivo, Git no podrá averiguar qué versión utilizar, si esto pasa, se detiene justo antes de la confirmación de fusión para poder resolver los conflictos manualmente. https://www.atlassian.com/es/git/tutorials/using-branches/git-merge
+📎 *Fuente: [Atlassian – Using Branches: Git Merge](https://www.atlassian.com/es/git/tutorials/using-branches/git-merge)*
 
-03. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?
+</details>
 
-El comando “git log” es una herramienta potente para vidualizar el historial de ramas en la terminal.
+<details open>
+<summary><strong>03. ¿Cómo puedes ver gráficamente el historial de merges y ramas en consola?</strong></summary>
 
-Vista gráfica básica
+<br>
 
+Con el comando:
+
+```bash
 git log --oneline --graph --all --decorate
+```
 
-oneline: Muestra cada commit en una sola línea.
+| Flag | Función |
+|------|---------|
+| `--oneline` | Muestra cada commit en una sola línea |
+| `--graph` | Representa el historial como un gráfico de ramas |
+| `--all` | Incluye todas las ramas del repositorio |
+| `--decorate` | Agrega nombres de ramas y etiquetas a cada commit |
 
-Graph: Muestra el hsitorial de confirmaciones como un gráfico.
+📎 *Fuente: [GeeksforGeeks – Visualizing Branch Topology in Git](https://www.geeksforgeeks.org/git/how-to-visualizing-branch-topology-in-git/)*
 
-All: incluye todas las ramas.
+</details>
 
-Decorate: Agrega nombres de ramas y etiquetas a las entradas de confirmación. https://www.geeksforgeeks.org/git/how-to-visualizing-branch-topology-in-git/
+<details open>
+<summary><strong>04. Explica la diferencia entre un <code>commit</code> y un <code>push</code></strong></summary>
 
+<br>
 
+- **Commit**: guarda de forma local los cambios realizados en los archivos del repositorio.
+- **Push**: envía y actualiza esos commits en una rama remota, haciéndolos visibles para el resto del equipo.
 
+📎 *Fuente: [Cloud Infrastructure Services – Git Commit vs Push](https://cloudinfrastructureservices.co.uk/git-commit-vs-push-whats-the-difference-tutorial/)*
 
-04. Explica la diferencia entre un commit y un push
+</details>
 
-Commit: se utiliza para guardar los cambios realizados en los archivos.
+<details open>
+<summary><strong>05. ¿Para qué sirven <code>git stash</code> y <code>git stash pop</code>?</strong></summary>
 
-Push: Tiene la capacidad de actualizarse a través de una rama remota. https://cloudinfrastructureservices.co.uk/git-commit-vs-push-whats-the-difference-tutorial/
+<br>
 
-05. ¿Para qué sirven git stash y git stash pop?
+- **`git stash`**: guarda temporalmente los cambios sin confirmar del directorio de trabajo, dejándolo limpio para poder cambiar de tarea o de rama.
+- **`git stash pop`**: recupera los cambios guardados y los elimina automáticamente de la pila de stash una vez aplicados.
 
-Git stash: almacena temporalmente (o guarda en un stash) los cambios que haya efectuado en el código en el que está trabajando para que se pueda trabajar en otra cosa, y más tarde, regresar y volver a aplicar los cambios más tarde.
+📎 *Fuente: [KeepCoding – Qué es git stash pop](https://keepcoding.io/blog/que-es-git-stash-pop-y-su-funcion/)*
 
-Git stash pop: Si se desea que el stash se elimine automáticamente después de aplicarlo, git stash pop lo hace. https://keepcoding.io/blog/que-es-git-stash-pop-y-su-funcion/
+</details>
 
-06. ¿Qué diferencia hay entre HashMap y HashTable?
+---
 
-HashMap: No está sincronizado. Esto significa que, si se usa en un entorno multihilo, más de un hilo puede acceder y procesar el HashMap simultáneamente.
+### ☕ Java y Programación Funcional
 
-HashTable: Esta sincronizada. Esto garantiza que solo un hilo pueda acceder a ella simultáneamente. El hilo que trabaja con la tabla hash adquiere un bloqueo para que los demás hilos esperen hasta que finalice la tarea. https://beginnersbook.com/2014/06/difference-between-hashmap-and-hashtable/
+<details open>
+<summary><strong>06. ¿Qué diferencia hay entre <code>HashMap</code> y <code>HashTable</code>?</strong></summary>
 
-07. ¿Qué ventajas tiene Collectors.toMap() frente a un bucle tradicional para llenar un mapa?
+<br>
 
-Facilita la programación funcional con la API de Streams en Java y maneja de forma nativa la concurrencia y el procesamiento en paralelo. Además, utiliza menos líneas de código.
+| | HashMap | HashTable |
+|---|---------|-----------|
+| **Sincronización** | No sincronizado | Sincronizado |
+| **Concurrencia** | Varios hilos pueden acceder simultáneamente | Solo un hilo accede a la vez (bloqueo) |
+| **Rendimiento** | Mayor (sin overhead de sincronización) | Menor en entornos multihilo |
 
+📎 *Fuente: [BeginnersBook – Difference between HashMap and HashTable](https://beginnersbook.com/2014/06/difference-between-hashmap-and-hashtable/)*
 
+</details>
 
-08. Si usas List con objetos y aplicas stream().map(), ¿qué tipo de operación estás haciendo?
+<details open>
+<summary><strong>07. ¿Qué ventajas tiene <code>Collectors.toMap()</code> frente a un bucle tradicional para llenar un mapa?</strong></summary>
 
-Transformación, ya que convierte cada elemento de la lista en otro objeto diferente o nuevo valor, devolviendo un nuevo Stream sin modificar la lista original. https://www.ciberaula.com/cursos/java/streams_java.php
+<br>
 
-09. ¿Qué hace stream().filter() y qué retorna?
+Facilita la programación funcional mediante la API de Streams de Java, maneja de forma nativa la concurrencia y el procesamiento en paralelo, y reduce significativamente la cantidad de líneas de código necesarias frente a un bucle `for` tradicional.
 
-Es como un colador que ayuda a seleccionar solo los elementos que cumplen con una condición específica dentro de una colección. Solo los elementos que pasan la condición se mantienen. https://keepcoding.io/blog/que-hace-stream-filter-en-java/
+</details>
+
+<details open>
+<summary><strong>08. Si usas <code>List</code> con objetos y aplicas <code>stream().map()</code>, ¿qué tipo de operación estás haciendo?</strong></summary>
+
+<br>
+
+Una operación de **transformación**: cada elemento de la lista se convierte en un objeto o valor nuevo, generando un nuevo `Stream` sin modificar la colección original.
+
+📎 *Fuente: [Ciberaula – Streams en Java](https://www.ciberaula.com/cursos/java/streams_java.php)*
+
+</details>
+
+<details open>
+<summary><strong>09. ¿Qué hace <code>stream().filter()</code> y qué retorna?</strong></summary>
+
+<br>
+
+Actúa como un colador: recorre la colección y selecciona únicamente los elementos que cumplen una condición específica, devolviendo un nuevo `Stream` que solo contiene los elementos que pasaron dicha condición.
+
+📎 *Fuente: [KeepCoding – Qué hace stream filter en Java](https://keepcoding.io/blog/que-hace-stream-filter-en-java/)*
+
+</details>
+
+---
+
+### 🌿 Flujo de trabajo con ramas (Git Flow)
+
+<details open>
+<summary><strong>10. Describe el paso a paso para crear una rama desde <code>develop</code> para una funcionalidad nueva</strong></summary>
+
+<br>
+
+```bash
+# 1. Ubicarte en la rama develop
+git checkout develop
+
+# 2. Actualizar develop con los últimos cambios remotos
+git pull origin develop
+
+# 3. Crear y cambiar a la nueva rama de funcionalidad
+git checkout -b feature/nombre-de-la-funcionalidad
+
+# 4. Trabajar en los cambios y confirmarlos
+git add .
+git commit -m "feat: descripción breve del cambio"
+
+# 5. Subir la rama al repositorio remoto
+git push origin feature/nombre-de-la-funcionalidad
+
+# 6. Abrir un Pull Request hacia develop para revisión e integración
+```
+
+Este flujo asegura que la rama `develop` se mantenga siempre estable y actualizada antes de derivar nuevo trabajo desde ella.
+
+</details>
+
+<details open>
+<summary><strong>11. ¿Cuál es la diferencia entre <code>git branch</code> y <code>git checkout -b</code>?</strong></summary>
+
+<br>
+
+- **`git branch nombre-rama`**: únicamente **crea** la nueva rama, pero el usuario permanece en la rama actual; es necesario ejecutar `git checkout nombre-rama` por separado para moverse a ella.
+- **`git checkout -b nombre-rama`**: es un atajo que combina ambas acciones en un solo comando — **crea la rama y cambia (switch) a ella automáticamente**.
+
+En términos equivalentes:
+
+```bash
+git branch feature/x && git checkout feature/x
+# es lo mismo que:
+git checkout -b feature/x
+```
+
+</details>
+
+<details open>
+<summary><strong>12. ¿Por qué se recomienda usar ramas <code>feature/</code> en lugar de trabajar directamente en <code>main</code>?</strong></summary>
+
+<br>
+
+- **Aislamiento del código estable**: `main` refleja siempre una versión funcional o lista para producción; el desarrollo en curso no debe comprometer esa estabilidad.
+- **Revisión de código**: trabajar en `feature/` permite abrir un Pull Request antes de integrar los cambios, habilitando revisión por pares y control de calidad.
+- **Desarrollo paralelo**: distintos integrantes del equipo pueden trabajar en funcionalidades independientes sin generar conflictos entre sí.
+- **Rollback sencillo**: si una funcionalidad falla o se descarta, basta con eliminar o abandonar la rama, sin afectar el historial de `main`.
+- **Integración con CI/CD**: los pipelines de integración continua pueden validar cada rama antes de permitir su fusión, evitando que código roto llegue a producción.
+
+</details>
+
+---
+
+## 📚 Referencias
+
+- [DataCamp – Git Merge vs Git Rebase](https://www.datacamp.com/es/blog/git-merge-vs-git-rebase)
+- [Atlassian – Using Branches: Git Merge](https://www.atlassian.com/es/git/tutorials/using-branches/git-merge)
+- [GeeksforGeeks – Visualizing Branch Topology in Git](https://www.geeksforgeeks.org/git/how-to-visualizing-branch-topology-in-git/)
+- [Cloud Infrastructure Services – Git Commit vs Push](https://cloudinfrastructureservices.co.uk/git-commit-vs-push-whats-the-difference-tutorial/)
+- [KeepCoding – Qué es git stash pop](https://keepcoding.io/blog/que-es-git-stash-pop-y-su-funcion/)
+- [BeginnersBook – HashMap vs HashTable](https://beginnersbook.com/2014/06/difference-between-hashmap-and-hashtable/)
+- [Ciberaula – Streams en Java](https://www.ciberaula.com/cursos/java/streams_java.php)
+- [KeepCoding – stream filter en Java](https://keepcoding.io/blog/que-hace-stream-filter-en-java/)
+
+---
+
+<div align="center">
+
+*Documento generado como evidencia de retos y fundamentación teórica del proyecto.*
+
+</div>
